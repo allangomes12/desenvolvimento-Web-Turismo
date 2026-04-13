@@ -2,4 +2,149 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Archivo Black', sans-serif;
+}
+section{
+    height: 100vh;
+}
+/*-------------------------------Header-----------------------------*/
+/*-------------------------------Header-----------------------------*/
+/*-------------------------------Header-----------------------------*/
+
+#tela1{
+    background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://palacepraia.com.br/wp-content/uploads/2021/10/viajar-de-aviao.jpeg') center / cover no-repeat;
+
+}
+
+header{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+header ul{
+
+    width: fit-content;
+    list-style: none;
+    margin-top:20px;
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+}
+header ul li a{
+    font-size: 1.7vw;
+    text-decoration: none;
+    color: #e0e0e0; 
+    transition: 0.2s; 
+    position: relative;  
+}
+header ul li a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    background-color: #ff4d5a;
+    width: 0%;
+    left: 0;
+    bottom: -4px;
+    transition: width 0.3s ease;
+}
+header ul li a:hover::after{
+    width: 100%;
+}
+/*-------------------------------Tela 1-----------------------------*/
+/*-------------------------------Tela 1-----------------------------*/
+/*-------------------------------Tela 1-----------------------------*/
+
+#tela1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#tela1 h1{
+    font-size: 5vw;
+    color: #e0e0e0;
+}
+#tela1 p{
+    color: #ff4d5a;
+    font-size: 2vw;
+}
+
+/*---------------------------------TELA 2------------------------------*/
+/*---------------------------------TELA 2------------------------------*/
+/*---------------------------------TELA 2------------------------------*/
+#tela2{
+    background-color: #1f2235;
+}
+.viagens .locais{
+    background-color: aqua;
+}
+.viagens .locais img{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#tela3{
+    background-color: brown;
+}
+#tela4{
+    background-color: cornflowerblue;
 }
