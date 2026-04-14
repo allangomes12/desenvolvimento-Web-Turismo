@@ -9,6 +9,7 @@ body{
 }
 section{
     height: 100vh;
+    
 }
 /*-------------------------------Header-----------------------------*/
 /*-------------------------------Header-----------------------------*/
@@ -82,8 +83,16 @@ header ul li a:hover::after{
 #tela2{
     background-color: #1f2235;
 }
+.viagens{
+    display: flex;
+    flex-wrap: wrap;
+     
+}
 .viagens .locais{
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
 }
 .viagens .locais img{
     height: 200px;
